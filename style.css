@@ -1,0 +1,115 @@
+:root {
+  --orange-color: orangered;
+  --black-color: black;
+  --grey-color: rgba(36, 35, 35, 0.89);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: var(--grey-color);
+  font-size: 20px;
+}
+
+h1 {
+  margin: 40px 0 20px 0;
+  font-size: 40px;
+  color: var(--orange-color);
+}
+
+h2 {
+  margin: 30px 0 20px 0;
+  color: var(--orange-color);
+}
+
+h3 {
+  margin: 15px 0 10px 0;
+  color: var(--black-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--orange-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+.second-ul li a {
+  color: var(--grey-color);
+  margin-left: 15px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  color: var(--orange-color);
+  border: 2px solid var(--orange-color);
+  width: 200px;
+}
+
+.music {
+  height: 15px;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--orange-color);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+  border-radius: 20px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#myBtn:hover {
+  background-color: var(--grey-color);
+}
+
+.dark-mode {
+  background-color: #121212ef;
+  color: white;
+}
+
+.dark-mode h3 {
+  color: white;
+}
+
+.dark-mode .second-ul li a {
+  color: white;
+}
