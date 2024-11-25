@@ -113,3 +113,17 @@ hr {
 .dark-mode .second-ul li a {
   color: white;
 }
+
+#changeThemeBtn {
+  font-size: 15px;
+  border: none;
+  top: 20px;
+  left: 20px;
+  position: fixed;
+  color: var(--orange-color);
+  background-color: rgba(240, 248, 255, 0);
+}
+
+#changeThemeBtn:hover {
+  cursor: pointer;
+}
