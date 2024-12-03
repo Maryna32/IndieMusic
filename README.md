@@ -6,7 +6,8 @@
 
 Ресурс створений за допомогою HTML, CSS, та JavaScript, з використанням Gulp для автоматизації процесів розробки (мініфікації, роботи з препроцесорами CSS).
 
-Розгорнутий на GitHub Pages за посиланням: https://maryna32.github.io/IndieMusic/dist/
+> [!NOTE]
+> Розгорнутий на GitHub Pages за посиланням: https://maryna32.github.io/IndieMusic/dist/
 
 ## Завдання ресурсу
 
