@@ -4,12 +4,11 @@ import gulpSass from "gulp-sass";
 const sass = gulpSass(sassModule);
 import autoprefixer from "gulp-autoprefixer";
 import cleanCSS from "gulp-clean-css";
-import concat from "gulp-concat";
 import terser from "gulp-terser";
 import browserSync from "browser-sync";
 import htmlmin from "gulp-htmlmin";
 
-const bs = browserSync.create();
+//const bs = browserSync.create();
 
 const paths = {
   html: "./src/*.html",
@@ -46,7 +45,6 @@ function styles() {
 function scripts() {
   return gulp
     .src(paths.scripts)
-    .pipe(concat("main.js"))
     .pipe(terser())
     .pipe(gulp.dest(`${paths.dist}/js`))
     .pipe(browserSync.stream());
