@@ -1,0 +1,39 @@
+h1 {
+  margin: 40px 0 20px 0;
+  font-size: 40px;
+  color: var(--orange-color);
+}
+
+h2 {
+  margin: 30px 0 20px 0;
+  color: var(--orange-color);
+}
+
+h3 {
+  margin: 15px 0 10px 0;
+  color: var(--black-color);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--orange-color);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+  border-radius: 20px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#myBtn:hover {
+  background-color: var(--grey-color);
+}

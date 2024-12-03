@@ -1,0 +1,1 @@
+let mybutton=document.getElementById("myBtn");function topFunction(){document.documentElement.scrollTop=0}function toggleTheme(){document.body.classList.toggle("dark-mode")}window.onscroll=function(){document.body.scrollTop>20||document.documentElement.scrollTop>20?mybutton.style.display="block":mybutton.style.display="none"};
