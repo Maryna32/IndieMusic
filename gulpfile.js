@@ -15,7 +15,6 @@ const paths = {
   styles: "./src/styles/**/*.scss",
   scripts: "./src/js/**/*.js",
   images: "./src/images/**/*.{png,jpg,jpeg,gif,svg,webp}",
-
   dist: "./dist",
 };
 

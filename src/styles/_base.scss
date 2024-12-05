@@ -32,3 +32,22 @@ hr {
   border: 2px solid var(--orange-color);
   width: 200px;
 }
+
+@media (min-width: 428px) {
+  .content {
+    max-width: 300px;
+  }
+  .images img {
+    height: 100px;
+  }
+}
+@media (min-width: 810px) {
+  .content {
+    max-width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .content {
+    max-width: 1140px;
+  }
+}
